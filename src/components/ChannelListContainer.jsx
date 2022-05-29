@@ -13,6 +13,7 @@ const SideBar = ({ logout }) => (
         <div className="channel-list__sidebar__icon1">
             <div className="icon1__inner">
                 <img src={HospitalIcon} alt="Hospital" width="30" />
+            
             </div>
         </div>
         <div className="channel-list__sidebar__icon2">
@@ -127,7 +128,7 @@ const ChannelListContainer = ({ setCreateType, setIsCreating, setIsEditing }) =>
             </div>
 
             <div className="channel-list__container-responsive"
-                style={{ left: toggleContainer ? "0%" : "-89%", backgroundColor: "#005fff"}}
+                style={{ left: toggleContainer ? "0%" : "-89%", backgroundColor: "FFF0E51a"}}
             >
                 <div className="channel-list__container-toggle" onClick={() => setToggleContainer((prevToggleContainer) => !prevToggleContainer)}>
                 </div>

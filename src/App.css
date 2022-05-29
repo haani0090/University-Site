@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #005fff;
-  --primary-color-alpha: #005fff1a;
+  --primary-color: #69e279;
+  --primary-color-alpha: #FFF0E51a;
 }
 
 html,
@@ -27,7 +27,7 @@ body {
   justify-content: center;
 
   padding: 2rem;
-  background: #005fff;
+  background: #FFF0E5;
 }
 
 .auth__form-container_image {
@@ -101,8 +101,8 @@ body {
 
 .auth__form-container_fields-content_input input:focus,
 .auth__form-container_fields-content_input input:active {
-  box-shadow: 0px 0px 0px 1.5px #005fff;
-  border-color: #005fff;
+  box-shadow: 0px 0px 0px 1.5px #FFF0E5;
+  border-color: #FFF0E5;
 }
 
 .auth__form-container_fields-content_input-password {
@@ -120,8 +120,8 @@ body {
 
 .auth__form-container_fields-content_button button {
   border-radius: 4px;
-  background: #1aaf53;
-  border: 1px solid #005fff;
+  background: #69e279;
+  border: 1px solid #FFF0E5;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -225,7 +225,7 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-  .str-chat-channel-list.team.light {
+  .str-chat-channel-list.team {
     position: unset;
     left: unset;
     top: unset;
@@ -941,7 +941,7 @@ body {
 }
 
 .team-channel-list__message {
-  color: #ffffff;
+  color: #FFF0E5;
   padding: 0 16px;
 }
 
@@ -1002,7 +1002,7 @@ body {
   align-items: center;
   font-family: Helvetica Neue, sans-serif;
   font-size: 14px;
-  color: #ffffff;
+  color: #FFF0E5;
   padding: 0px 20px;
   height: 100%;
   width: 100%;
@@ -1155,14 +1155,14 @@ body {
 }
 
 .str-chat__message-team .str-chat__message-attachment-card--content {
-  background: #fff;
+  background: #FFF0E5;
 }
 
 ul.str-chat__simple-reactions-list {
   display: flex;
   align-items: center;
   width: fit-content;
-  background: #ffffff;
+  background: #FFF0E5;
   border: 1px solid #e9e9ea;
   box-sizing: border-box;
   border-radius: 50vw;
@@ -1209,7 +1209,7 @@ ul.str-chat__simple-reactions-list:hover {
 }
 
 .str-chat__message-attachment-actions-button--default {
-  background: #fff;
+  background: #FFF0E5;
   cursor: pointer;
 }
 
@@ -1240,7 +1240,7 @@ ul.str-chat__simple-reactions-list:hover {
 }
 
 .str-chat__message-team--editing {
-  background: #e9e9ea;
+  background: #FFF0E5;
   box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.06),
     inset 0 1px 0 0 var(--primary-color), inset 0 -1px 0 0 var(--primary-color);
   padding: 15px 20px;
@@ -1285,7 +1285,7 @@ ul.str-chat__simple-reactions-list:hover {
 }
 
 .pinned-message {
-  background: #e6efff;
+  background: #FFF0E5;
 }
 
 .unpinned-message {
@@ -1682,6 +1682,7 @@ div.rta__autocomplete.str-chat__emojisearch {
   align-items: center;
   width: 30px;
   padding-right: 6px;
+  color: #69e279;
 }
 
 .thread-message-input__icons svg:hover path {
@@ -1712,7 +1713,7 @@ div.rta__autocomplete.str-chat__emojisearch {
   display: none;
   height: 50px;
   width: 50px;
-  background: #005fff;
+  background: #69e279;
   position: absolute;
   right: -2%;
   top: 50%;
@@ -1805,7 +1806,10 @@ div.rta__autocomplete.str-chat__emojisearch {
 
 @media screen and (max-width: 650px) {
   .channerl-list__container-toggle {
-    right: -3%;
+    right: 3%;
+  }
+  .channerl-list__container-toggle {
+    display: flex;
   }
 }
 
@@ -1821,6 +1825,6 @@ div.rta__autocomplete.str-chat__emojisearch {
 
 @media screen and (max-width: 320px) {
   .channel-list__sidebar {
-    display: none;
+    display: flex;
   }
 }
